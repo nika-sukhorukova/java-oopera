@@ -35,7 +35,7 @@ public class Show {
     }
 
     public void printActors() {
-        System.out.println("Актёры спектакля " + title + " :");
+        System.out.println("Актёры спектакля " + title + ":");
         for (Actor a : actors) {
             System.out.println(a);
         }
