@@ -1,7 +1,7 @@
 public class Opera extends MusicalShow{
     private int choirSize;
 
-    public Opera(Show show, String librettoText, String musicAuthor, int choirSize) {
+    public Opera(Show show, String librettoText, Person musicAuthor, int choirSize) {
         super(show, librettoText, musicAuthor);
         this.choirSize = choirSize;
     }

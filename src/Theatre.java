@@ -12,8 +12,8 @@ public class Theatre {
         Director director1 = new Director("Михаил", "Лось", Gender.MALE, 42);
         Director director2 = new Director("Галина", "Травина", Gender.FEMALE, 38);
 
-        String musicAuthor = "Пётр Чайковский";
-        String choreographer = "Дмитрий Плясунов";
+        Person musicAuthor = new Person("Пётр",  "Чайковский", Gender.MALE);
+        Person choreographer = new Person("Дмитрий","Плясунов", Gender.MALE);
 
         // спектакли
 
